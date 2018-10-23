@@ -75,7 +75,8 @@ public HexGrid {
 			if (neighbor.Distance == 10000) {
 				neighbor.Distance = tempDistance;
 				neighbor.PathFrom = current;
-				neighbor.SearchHeuristic = neighbor.hexCoordinates.DistanceTo(toCell.hexCoordinates);
+				neighbor.SearchHeuristic = 
+					neighbor.hexCoordinates.DistanceTo(toCell.hexCoordinates);
 				searchFrontier.Enqueue(neighbor);
 			}
 				
