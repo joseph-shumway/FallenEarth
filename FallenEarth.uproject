@@ -7,6 +7,11 @@
 		{
 			"Name": "Grid",
 			"Enabled": false
+		},
+		{
+			"Name": "VictoryBPLibrary",
+			"Enabled": true,
+			"MarketplaceURL": "http://www.ue4code.com"
 		}
 	],
 	"TargetPlatforms": [
